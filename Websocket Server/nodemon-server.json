@@ -1,0 +1,5 @@
+{
+    "watch": ["./server.js"], 
+    "ignore": ["./services/bridge.js"],
+    "ext": "js,json"
+}

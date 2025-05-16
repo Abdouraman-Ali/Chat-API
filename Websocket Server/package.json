@@ -1,0 +1,22 @@
+{
+  "name": "websocket-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-server": "nodemon --config nodemon-server.json server.js",
+    "start-bridge": "nodemon --config nodemon-bridge.json services/bridge.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "ws": "^8.18.1"
+  }
+}
