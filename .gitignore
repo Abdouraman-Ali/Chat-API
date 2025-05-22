@@ -1,2 +1,3 @@
+./Rest api/.env
 ./Rest api/node_modules
 ./Websocket Server/node_modules
